@@ -58,3 +58,5 @@ class AddTest(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         cls.http_request.close()
+
+print('来了，老弟')
